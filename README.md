@@ -4,7 +4,6 @@
 This project examines the global burden of mental health disorders using data from the Global Burden of Disease (GBD) Study covering the years 1990–2019.  
 The focus of the project is to prepare reliable, analysis-ready datasets in Python and to communicate insights through an analytical dashboard built in Tableau.
 ---
-
 ## Project workflow
 
 The project was carried out in two clearly separated stages, reflecting a real-world analytics workflow.
@@ -23,9 +22,7 @@ The following steps were performed:
 - Exported three clean, Tableau-ready CSV files
 
 These steps ensured that the data used in the dashboard was consistent, interpretable, and free of structural issues.
-
 ---
-
 ### 2. Tableau: Dashboard & visual storytelling
 All final visualizations and insights were developed directly in Tableau using the cleaned outputs from Python.
 
@@ -36,9 +33,7 @@ The Tableau dashboard explores:
 - Data availability and gaps in primary mental health reporting
 
 > The Tableau dashboard itself is not publicly shared; screenshots are included in this repository for illustration.
-
 ---
-
 ## Key analytical questions
 This project was designed to answer questions such as:
 - How has the global burden of mental health disorders changed over the past three decades?
@@ -47,7 +42,6 @@ This project was designed to answer questions such as:
 - Where are the major gaps in primary data reporting for mental health disorders?
 
 ---
-
 ## Key insights (from the Tableau dashboard)
 - Anxiety and depression often show similar global patterns, but the strength of their relationship varies across countries.
 - Some countries exhibit unique burden profiles, with elevated levels of specific disorders rather than uniformly high prevalence.
@@ -55,15 +49,19 @@ This project was designed to answer questions such as:
 - Primary data coverage for certain mental health disorders remains limited in many countries, highlighting monitoring and infrastructure gaps.
 
 ---
-
 ## Repository contents
 - `notebooks/` — Python notebook for data cleaning and exploratory analysis  
 - `data/processed/` — Cleaned CSV files used as inputs for Tableau  
 - `dashboard/screenshots/` — Screenshots of the Tableau dashboard
 
 ---
-
 ## Tech stack
 Python (pandas, numpy, matplotlib, seaborn, scikit-learn)  
 Tableau  
 Global Burden of Disease (GBD) Study data
+
+---
+## Author
+
+Created by: zohreh samieekadkani
+LinkedIn: https://www.linkedin.com/in/zohreh-samieekadkani-24204z1413/
