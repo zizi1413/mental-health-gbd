@@ -7,7 +7,6 @@ The focus of the project is to prepare reliable, analysis-ready datasets in Pyth
 ## Project workflow
 
 The project was carried out in two clearly separated stages, reflecting a real-world analytics workflow.
-
 ### 1. Python: Data cleaning & exploratory analysis
 Python was used to prepare and validate the raw GBD datasets before visualization.  
 The following steps were performed:
